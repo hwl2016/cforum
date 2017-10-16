@@ -1,0 +1,83 @@
+/* ----------------------------------
+
+Main CSS file for bbs.liangchanba.com
+(C) bbs.liangchanba.com Inc.
+Created & Modified by bbs.liangchanba.com.
+
+-------------------------------------*/
+.wp {margin: 0 auto;width: 1200px;}
+#toptb{min-width:1200px;border-bottom:1px solid #CDCDCD;background:#FBFBFB;line-height:28px}
+#toptb a{float:left;padding:0 4px;height:28px}
+#toptb a.showmenu{padding-right:15px}
+#toptb a.hover{background-color:#FFF}
+#toptb .pipe{float:left;display:none}
+
+#hd { border-bottom: {HEADERBORDER} solid {SPECIALBORDER}; {HEADERBGCODE} }
+#hd .wp { padding: 10px 0 0; }
+.hdc { min-height: 75px; }
+.ie6 .hdc { height: 75px; }
+#hd h2 { padding: 0 20px 8px 0; float: left; }
+#space #hd h2 { margin-top: 0; }
+#hd .fastlg { padding-top: 10px; }
+
+#scbar{overflow:hidden;height:42px;line-height:42px;background:#FBFBFB;border-bottom:1px solid #CCC;border-left:1px solid #CCC;border-right:1px solid #CCC}
+.scbar_icon_td{width:21px;background:url({STYLEIMGDIR}/search.png) no-repeat 0 -50px}
+.scbar_txt_td,.scbar_type_td{background:url({STYLEIMGDIR}/search.png) repeat-x 0 -93px}
+#scbar_txt{width:400px;border:1px solid #FFF;outline:none}
+#scbar_txt{width:260px}
+.scbar_btn_td{width:38px;background:url({STYLEIMGDIR}/search.png) no-repeat 8px -142px}
+#scbar_btn{margin:0;padding:0;border:none;background:transparent none;box-shadow:none}
+#scbar_btn strong{line-height:84px}
+.scbar_type_td{width:61px;background:url({STYLEIMGDIR}/search.png) no-repeat 0 -193px}
+#scbar_type{display:block;padding-left:10px;text-align:left;text-decoration:none}
+#scbar_type_menu{margin-top:-8px}
+#scbar_hot{padding-left:8px;height:45px;overflow:hidden}
+#scbar_hot strong,#scbar_hot a{float:left;margin-right:8px;white-space:nowrap}
+#nv{overflow:hidden;height:33px;background:#F9F9F9;border-bottom:#356190 solid 2px}
+#nv li{float:left;padding-right:1px;height:33px;line-height:33px;background:url({STYLEIMGDIR}/nv_a.png) no-repeat 100% 0;font-weight:700;font-size:14px}
+.ie_all #nv li{line-height:36px}
+.ie6 #nv li{line-height:33px}
+#nv li a{float:left;padding:0 15px;height:33px}
+#nv li a{color:#333}
+#nv li span{display:none}
+#nv li.a{margin-left:-1px;background:#EEE}
+#nv li.a a{color:#333}
+#nv li a:hover{background:none}
+#nv li.hover a:hover,#nv li.hover a{background:#EEE}
+
+
+
+.bm_h .o{float:right;width:30px; display:none}
+.bm_h .o img{float:right;margin-top:8px;cursor:pointer}
+.bm_h .i{padding-left:10px}
+.bm_h .pn{margin-top:4px}
+.bm_h{padding:0 10px;height:31px;border-top:0px solid #FFF;border-bottom:1px solid #C2D5E3;background:#FBFBFB;line-height:31px;white-space:nowrap;overflow:hidden}
+.bmw{border:0px solid #CDCDCD}
+.bmw .bm_h{border-top:0px solid #FEFEFE;border-right:0px solid #FEFEFE;border-bottom:#356190 solid 2px;border-left:0px solid #FEFEFE;background:#F9F9F9}
+.bmw .bm_h a{color:#333}
+.bmw .bm_c{border:1px solid #CDCDCD;border-top:0px}
+
+
+
+.ct2 .mn{float: left;width: 900px;margin-bottom: 1em;}
+.ct2 .sd {float: right;width: 290px;overflow: hidden;_overflow-y: visible;}
+
+
+.xfs_2{border-color:#F9F9F9}
+.xfs_2 .frame-title,.xfs_2 .frametitle,.xfs_2 .tab-title{background:#F9F9F9;border-bottom:#356190 solid 2px}
+.xfs_2 .frame-1-c{border:solid 1px #CDCDCD}
+.xfs_2 .titletext{ color:#333}
+
+
+/* 按钮  */
+.pgs #newspecial, .pgs #newspecialtmp { float: left; background: url({STYLEIMGDIR}/pn_post.png) no-repeat 0 0;  width: 100px; height: 35px;}
+#post_reply, #post_replytmp { float: left; background: url({STYLEIMGDIR}/pn_reply.png) no-repeat 0 0;  width: 100px; height: 35px;}
+#newspecial img, #newspecialtmp img, #post_reply img, #post_replytmp img { opacity: 0; filter: alpha(opacity=0); }
+#newspecial:active { background-position: 0 -35px; }
+
+/* 家园/动态  */
+.ct2_a .mn{ width:1024px;}
+.ct3_a .mn { float: left; margin-left: 20px; width: 800px; }
+
+/* 导航下划线  */
+.itk_tm a:hover{ color:#356190;text-decoration:none;padding-bottom:26px;border-bottom:2px solid #356190}

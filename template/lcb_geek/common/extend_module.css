@@ -1,0 +1,47 @@
+/* ----------------------------------
+(C) bbs.liangchanba.com
+http://bbs.liangchanba.com
+QQ 2681851211
+---------------------------------- */
+
+/** home::space,misc::ranklist **/
+.mi .moodfm_input { width: 600px; height: 58px; background: {COMMONBORDER} url({IMGDIR}/mood_input.png) no-repeat 0 0; }
+.mi #moodfm textarea { margin: 1px 0 0 6px; padding: 0; width: 585px; height: 56px; outline: none; border: none; }
+
+/*
+	Name:			mod_share_form
+	Level:			Function
+	Explain:		发布分享的表单
+	Last Modify:	Pony
+*/
+	.sfm { margin: 0 0 20px 10px; }
+		.sfm .c { width: 442px; }
+		.sfm .px { width: 432px; }
+		.sfm .pt { width: 432px; height: 67px; }
+
+
+/** misc::ranklist **/
+.bid { margin: 2px -4px -2px 2px; zoom: 1; }
+.biduser { width: 988px; background: url({IMGDIR}/avatar_blank.gif); }
+	.biduser li { float: left; margin: 0 4px 4px 0; }
+	.biduser a { display: block; }
+		.biduser img { width: 48px; height: 48px; }
+	.bidtop { overflow: hidden; width: 100px; height: 100px; background-color: {COMMONBG}; }
+		.bidtop img { width: auto; height: 100px; }
+
+/** forum::forumdisplay**/
+
+.avatarbox {
+    border: 1px solid #CCCCCC;
+    float: left;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 1px;
+}
+.avatarbox img {
+    width: 35px;
+}
+.tl.bm.bmw .th{border-top:1px solid #CDCDCD;border-left:1px solid #CDCDCD;border-right:1px solid #CDCDCD}
+.tl .th{margin-top:1px;padding:0 10px;border-bottom:1px solid #CDCDCD;background:#FBFBFB}
+
+/** end **/
